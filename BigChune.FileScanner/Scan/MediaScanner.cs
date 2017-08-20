@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq; 
-using Neo4j.Driver.V1; 
+using Neo4j.Driver.V1;
 
 namespace BigChune.Scanner.Scan
 {
     internal class MediaScanner
     {
-       
-      
+           
         private IEntityManager<SoundFile> soundFileManager;
         private IDriver driver;
         public MediaScanner()
